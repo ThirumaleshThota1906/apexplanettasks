@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A simple webpage</title>
+    <link rel="stylesheet" href="./task.css" />g
+</head>
+
+<body>
+
+    <h1
+        style="text-align: center; font-family: 'Arial Narrow', Arial, sans-serif; margin-top: 20px; position: relative; color: rgb(158, 116, 116);">
+        Animals Gallery
+        </h1>
+
+        <div class="container">
+
+
+            <div class="card">
+                <img src="cheetha.jpg" alt="leapord">
+                <hr style="border: 2px solid;">
+                <div class="picinfo">
+                    <h3>Leopard</h3>
+                    <p>heterotroph:Carnivorous</p>
+                    <p>The leopard cat species in the genus Panthera.</p>
+
+                    <a href="https://www.britannica.com/animal/tiger" class="btn">click me</a>
+
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="koala.jpg" alt="koala">
+                <hr style="border: 2px solid;">
+                <div class="picinfo">
+
+                    <h3>koala</h3>
+                    <p>heterotroph:Herbivorous</p>
+                    <p>The koala is an arboreal marsupial native to Australia.</p>
+                    <a href="https://www.britannica.com/animal/koala" class="btn">click me</a>
+
+
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Bear.jpg" alt="leapord">
+                <hr style="border: 2px solid;">
+                <div class="picinfo">
+
+                    <h3>Bear</h3>
+                    <p>heterotroph:Omnivourous</p>
+                    <p>They are classified as caniforms, or doglike carnivorans.</p>
+                    <a href="https://www.britannica.com/animal/bear" class="btn">click me</a>
+
+                </div>
+            </div>
+
+            <div class="more">
+                Click here to know more about the animals
+                <button onclick="openAnimalDetails()">Click here</button>
+            </div>
+
+            <script>
+                function openAnimalDetails() {
+                    window.open("https://www.bing.com/images/search?q=animals&qpvt=animals&form=IGRE&first=1", "_blank");
+                }
+            </script>
+
+        </div>
+</body>
+
+</html>

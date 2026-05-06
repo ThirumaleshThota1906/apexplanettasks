@@ -1,0 +1,141 @@
+    body {
+      font-family: sans-serif; 
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: linear-gradient(-45deg,rgb(128, 150, 237),rgb(248, 248, 248),rgb(128, 150, 237));
+    }
+
+    h1{
+        padding: 10px;
+        color: #0f5d1e;
+        text-align: center;
+    }
+
+
+    h2 {
+      text-align: center;
+      color: #0f5d1e;
+    }
+
+    .container {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 10px 10px 0px rgba(193, 26, 26, 0.1);
+      margin: 20px 0;
+      border: 2px solid;
+      
+    }
+    
+     .todo-container {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      margin: 20px 0;
+    }
+
+
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    label {
+      margin-top: 10px;
+      font-weight: 1px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    #sub {
+      margin-top: 20px;
+      padding: 12px;
+      background-color: #0f5d1e;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 20px 150px  ;
+    }
+
+      #sub:hover {
+      background-color: #6be083;
+    }
+
+
+    button:hover {
+      background-color: #6be083;
+    }
+
+    button
+    {
+      margin-top: 20px;
+      padding: 12px;
+      background-color: #0f5d1e;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer; 
+    }
+
+    .input-group {
+      display: flex;
+      gap: 5px;
+    }
+
+    #taskInput {
+      flex: 1px;
+      margin-top: 10px;
+      
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 20px;
+    }
+
+    li {
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: #e9ecef;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .deleteBtn {
+      background-color: #dc3545;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 3px;
+      cursor: pointer;
+      margin: 5px 5px;
+    }
+
+    .deleteBtn:hover {
+      background-color: #c82333;
+    }
+
+    #formStatus {
+      margin-top: 10px;
+      font-weight: bold;
+    }

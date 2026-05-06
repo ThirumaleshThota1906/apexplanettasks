@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="h1">webpage with contact form and to-dolist</h1>
+        <div class="box">
+
+            <div class="left"> 
+
+            </div>
+            <div class="right">
+
+                <form id="contactForm">
+                    <label for="username">Name🙍‍♀️:</label>
+                    <input type="text" id="username" placeholder="Name" required>
+
+                    <label for="email">Email🌍:</label>
+                    <input type="email" id="email" placeholder="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="number" id="phone" placeholder="number" required>
+
+                    <button type="submit" class="button">save</button>
+
+                    <p id="formStatus"></p>
+                </form>
+
+
+
+
+            </div>
+        </div>
+
+        <div class="todo">
+            <h1>To-Do List</h1>
+            <h4>plan your list here</h4>
+
+            <div class="task-row">
+                <input type="text" id="taskInput" placeholder="Enter a task" class="data">
+                <button id="addBtn" class="Add">Add</button>
+            </div>
+
+
+
+            <ul id="todoList"></ul>
+        </div>
+
+    </div>
+    <script src="script2.js"></script>
+
+</body>
+
+</html>

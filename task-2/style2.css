@@ -1,0 +1,175 @@
+body{
+    margin:0;
+    font-style: italic;
+    background: linear-gradient(-45deg,rgb(13, 55, 146),rgb(164, 159, 159),rgb(110, 141, 207)); 
+    align-items: center;
+}
+
+.container 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+     padding: 30px; 
+     gap: 200px;  
+}
+
+.box 
+{
+    display: flex;
+    width: 600px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: linear-gradient(-45deg,rgb(128,150,237),white,rgb(128,150,237));
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgb(139,137,137);
+    margin-top: -150px;
+    align-content: center;
+}
+
+.box .right
+{
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box .left{
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: centre;
+    background-size: contain;
+    display: block;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding-left: 20px;
+    background-image: ;
+}
+
+.todo
+{
+    width: 600px;
+    max-width: 500px;
+    border: 3px solid black;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgb(138,134,134);
+    margin-bottom: 200px;
+    background: linear-gradient(-45deg,rgb(128,150,237),white,rgb(128,150,237));
+}
+
+h4
+{
+    text-align: left;
+}
+
+h1{
+    text-align: left;
+
+}
+
+.h1
+{
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+form label{
+    display: bluck;
+    margin: 10px 0 5px 5px;
+}
+
+form input
+{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+
+.button{
+    display: block;
+    margin-top: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 140px;
+    background: linear-gradient(-45deg,rgb(20, 55, 199),rgb(246, 243, 246),rgb(128,150,237));
+}
+.Add
+{
+    display: block;
+    margin: 10px  450px ;
+    padding: 10px 20px;
+    background-color: rgba(203,215,236,0,307);
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+     margin-right: 50px; 
+
+}
+
+.message
+{
+    text-align: center;
+}
+
+.data{
+    width: 370px;
+    padding:10px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    margin-right: 20px; 
+    
+}
+
+ul#todoList
+{
+   padding: 5px 18px 5px 9px;
+    margin-top: 20px; 
+}
+
+
+
+ ul#todoList li 
+{
+    padding: 10px 18px 7px 9px;
+    margin: 5px;
+    border-radius: 2px;
+    position: relative;
+    border-bottom: 2px solid black;
+}
+
+
+ul#todoList li button
+{
+    position: absolute;
+    right: 10px;
+    bottom: 1px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: none;
+    border-radius: 2px;
+}
+
+.task-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.task-row .data {
+    flex: 1;
+    max-width: 400px;
+}
+
+.task-row .Add {
+    margin: 0;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form + To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>A webpage with ContactForm and ToDo-list</h1>
+
+  <div class="container">
+    <h2>Contact Form</h2>
+    <p> Fill out the below details📦</p>
+    <form id="contactForm">
+      <label for="Name">Name🙍‍♀️:</label>
+      <input type="text"  id="Name"  placeholder="Name" required>
+
+      <label for="Name">Email🌍:</label>
+      <input type="email"  id="email"
+      placeholder="email" required>
+
+      <label for="message">Message✉️:</label>
+      <textarea id="message" required></textarea>
+
+      <button id="sub" type="submit">submit</button>
+    </form>
+    <p id="formStatus"></p>
+  </div>
+
+  <div class="todo-container">
+    <h2>To-Do List</h2>
+    <div class="input-group">
+      <input type="text" id="taskInput" placeholder="Enter a task">
+      <button id="addBtn">Add</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+
+ <script src="script.js"></script>
+
+</body>
+</html>
